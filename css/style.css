@@ -1,0 +1,422 @@
+body {
+   font-family: "Poppins", sans-serif;
+   margin: 0;
+   padding: 0;
+   background-color: #000000;
+
+}
+
+/* Adjust images for mobile devices */
+img {
+   max-width: 100%; 
+   height: auto; 
+}
+
+/*header section start*/
+.top-header {
+   transition: background-color 0.3s ease-in-out;
+   background-image: url('../images/database1.jpg');
+   background-position: center;
+   background-size: cover;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: #fff;
+   height: 50vh;
+   position: relative;
+}
+.top-header::before {
+   content: '';
+   position: absolute;
+   background-color: #000;
+   width: 100%;
+   height: 100%;
+   opacity: 0.5;
+}
+.top-header h2 {
+   position: absolute;
+}
+.navbar.fixed-top {
+   top: 0;
+   width: 100%;
+   z-index: 1000;
+}
+.border-bottom-1 {
+   border-bottom: 1px solid;
+   color: #8c8c8c;
+}
+.navbar-scrolled {
+   background-color: black !important;
+   /* Change background color to black when scrolled */
+}
+.custom-btn {
+   background-image: linear-gradient(to right, #5c42b4 10%, #4886c3 90%);
+   color: #ffffff !important;
+   border-radius: 90px;
+   display: flex;
+  
+}
+/*header section ends*/
+
+/*navbar section start*/
+.link {
+   background-color: #4667d4;
+   position: sticky;
+   top: 70px;
+   z-index: 1000;
+}
+
+.link .nav-link {
+   color: white;
+   padding: 10px;
+}
+/*navbar section end*/
+
+/*expert-training start*/
+.expert-training {
+   padding: 10px;
+   display: grid;
+   background-color: #101010;
+   padding-top:70px;
+   padding-bottom: 70px;   
+}
+.expert-training  img {
+   max-width: 100%;
+}
+.custom-text span {
+   color: #2997c7;
+}
+.custom-text h2 {
+   color: #d8d8d8;
+   padding-top: 15px;
+   padding-bottom: 15px;
+   font-weight: 600;
+}
+.custom-text p {
+   color: #848484;
+   font-size: large;
+}
+.custom-img img {
+   width: 100%;
+   overflow: hidden;
+}
+/*expert training end*/
+
+/*tabs section start*/
+.learning {
+   background-color: #151515;
+   padding-bottom: 60px;
+   padding-top: 60px;
+}
+.learning h6 {
+   color:#24799d;
+   text-align: center;
+   padding-bottom: 10px;
+}
+.learning h3 {
+   color:#e4e4e4;
+   text-align: center;
+}
+.accordion-item{
+   border:none;
+
+ }
+ .accordion-button:focus{
+   outline: 0;
+   box-shadow: none;
+ }
+ 
+ .accordion-button:not(.collapsed){
+   background-color: #000;
+   box-shadow:none;
+   color: #fff;
+ }
+.collapse {
+   background-color: #101010;
+}
+.learning .btn{
+   background-color: #101010;
+   color:#fff;
+ }
+.course-icon {
+   width: 40px;
+   height: 40px;
+ }
+ .course-title {
+   font-weight: bold;
+   color:#fff;
+  
+ }
+ .accordion-button::after {
+   content: '\25BC'; /* Unicode for down arrow */
+   font-size: 1.2rem;
+   float: right;
+   transition: transform 0.3s;
+ }
+ .accordion-button:focus {
+   outline: 0;
+   box-shadow: none;
+ }
+ .accordion-button.collapsed::after {
+   transform: rotate(-90deg); /* Rotate for right arrow */
+ }
+ .btn1 {
+   margin: 0.5rem 0.5rem 0.5rem 0;
+ }
+ .content-section {
+   display: none;
+   background-color: #101010;
+ }
+ .content-section.active {
+   display: block;
+ }
+.accordion-item {
+   background-color: #101010;
+}
+.content-text {
+   color:#fff;
+}
+.htext {
+   color:#fff;
+}
+.accordion-button {
+   background-color: #101010;
+}
+/*tabs section ends*/
+
+/* Counter Section CSS Starts */
+.counter-section {
+   background-color: #101010;
+   padding-top: 30px;
+   padding-bottom: 60px;
+}
+.counter {    
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.counter-box {
+    font-size: 50px;
+    background-color: #585858;
+    padding: 10px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    display: inline-flex;
+}
+.counter-content {
+   display: inline-block;
+}
+.counter h3 {
+    font-size: 28px;
+    padding: 0;
+    color: #e6e6e6;
+}
+.counter p {
+   margin-left: 20px;
+   color: #939393;
+}
+/*counter section ends*/
+
+/*cards section starts*/
+.cards-section {
+   background-color: #151515;
+   padding: 50px 70px;
+}
+.cards-section .our-expertize {
+   color: #236d8c;
+}
+.cards-section .expertize-text {
+   color: #e6e6e6;
+   padding-bottom: 32px;
+   font-weight: 600;
+}
+.cards-section .card {
+   background-color: #191919;
+   height: 220px;
+   padding: 30px;
+   z-index: 1;
+}
+.cards-section .card-title {
+   padding-top: 10px;
+}
+.cards-section img {
+   max-width: 65px;
+}
+.bg-image {
+   position: relative;
+   padding-bottom: 40px;
+}
+.bg-shape1 {
+   position: absolute;
+   z-index: 0;
+   top: -50px;
+   left: -10px;
+   scale: 1.2;
+   color: #66686d;
+}
+.bg-shape2 {
+   position: absolute;
+   z-index: 0;
+   top: -50px;
+   right: -8px;
+   scale: 1.3;
+}
+/*cards section  end*/
+
+/*why we excel start*/
+.excel {
+   background-color: #101010;
+   padding-top: 90px;
+   padding-bottom: 90px;
+}
+.excel .heading {
+   color: #237a9f;
+}
+.excel .excel-texts {
+   color: #fff;
+   padding-bottom: 10px;
+   font-size: 32px;
+}
+.excel .excel-text {
+   color: #fff;
+}
+.excel .excel-content {
+   color: #939393;
+}
+.excel .database {
+   width: 100%;
+   overflow: hidden;
+   border-radius: 5px;
+}
+.excel .images {
+   background-color: #dcdcdc;
+   border-radius: 5px;
+   padding: 10px;
+   max-width: 60px;
+}
+.image {
+   display: flex;
+   align-items: flex-start;
+}
+.image-content {
+   padding-left: 24px;
+}
+/*why we excel ends*/
+
+/* Testmonials CSS Section Starts */
+.testimonial-hero {
+   width: 100%;
+   height: auto;
+   background-color: #151515;
+   color: #e6e6e6;
+   display: flex;
+   justify-content: center;
+   align-content: center;
+   padding-top: 80px;
+   padding-bottom: 80px;
+}
+.testimonial-hero h5{
+   color: #2cabe1;
+}
+.carousel-control-next,
+.carousel-control-prev {
+   visibility: hidden;
+}
+.carousel-indicators {
+   justify-content: flex-end;
+   margin-right: 3em;
+   margin-bottom: 1em;
+   padding-top: 10px;
+   position: absolute;
+   right: 0;
+   bottom: 0;
+}
+.carousel-indicators [data-bs-target] {
+   position: relative;
+   width: 15px;
+   height: 15px;
+   border-radius: 50%;
+   border: none;
+   background-color: transparent;
+}
+.carousel-indicators [data-bs-target]::before {
+   content: '';
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   width: 4px;
+   height: 4px;
+   background-color: #2cabe1;
+   border-radius: 50%;
+}
+.carousel-indicators .active {
+   border: 1px solid #2cabe1;
+}
+.visually-hidden {
+   visibility: hidden;
+}
+/* Testmonials CSS Section Ends */
+
+/*footer section starts*/
+.footer {
+   position: relative;
+   background-color: #000;
+   padding: 0;
+   padding-top: 90px;
+}
+.footer {
+   text-align: center;
+}
+.footer img {
+   padding: 0px;
+   padding-bottom: 30px;
+}
+.footer .social-media a {
+   color: #a2a2a2;
+   padding: 5px;
+   font-size: 25px;
+}
+.footer .social-media a i {
+   color: #a2a2a2;
+   padding: 20px;
+}
+.footer p {
+   color: #a2a2a2;
+   padding: 30px;
+}
+
+/*footer section ends*/
+.custom-shape-divider-top-1718080288 {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   overflow: hidden;
+   line-height: 0;
+}
+
+.custom-shape-divider-top-1718080288 svg {
+   position: relative;
+   display: block;
+   width: calc(132% + 1.3px);
+   height: 50px;
+}
+
+.custom-shape-divider-top-1718080288 .shape-fill {
+   fill: #151515;
+}
+ /* Example media query for tablets */
+@media (min-width: 768px) and (max-width: 1023px) {
+   /* Adjust styles for tablets here */
+}
+
+/* Example media query for phones */
+@media (max-width: 767px) {
+   /* Adjust styles for phones here */
+}
+

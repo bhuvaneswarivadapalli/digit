@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>internship </title>
+    <!--meta tags-->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="Digit Institute" />
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="images/digit-d-logo.png " />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="fonts/Poppins-Regular.ttf" />
+    <!--style-->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!--header section starts-->
+    <nav class="navbar bg-body-transparent fixed-top border-bottom-1 ">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="images/digit-logo.png" alt="Logo" width="100" height="50"
+                    class="d-inline-block align-text-top">
+            </a>
+            <button class="btn custom-btn py-2 border border-0 ">Book a demo</button>
+        </div>
+    </nav>
+    <section class="top-header">
+        <h2>Database Course Content</h2>
+    </section>
+    <!--header section end-->
+
+    <!--navbar section start-->
+    <section class="link">
+        <div class="container">
+            <ul class="nav  justify-content-center ">
+                <a class="nav-link" href="#study-online">Study Online</a>
+                <a class="nav-link" href="#learning-path">Learning Path</a>
+                <a class="nav-link" href="#why-we-excel">Why We Excel</a>
+                <a class="nav-link" href="#learner-testimonials">Learner Testimonials</a>
+            </ul>
+        </div>
+    </section>
+    <!--navbar section end-->
+
+    <!--expert training start-->
+    <section class="expert-training" id="study-online">
+        <div class="container">
+            <div class="row d-flex">
+                <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                    <div class="custom-text">
+                        <span>EXPERT TRAINING FOR ASPIRING DATABASE DEVELOPERS</span>
+                        <h2>Master the Art of Database with Expert Guidance</h2>
+                        <p> The learning advanced SQL techniques, efficient database design, and performance
+                            optimization
+                            strategies.
+                            Gain hands-on experience with real-world projects and best practices in database management.
+                            Enhance
+                            your
+                            skills in data modeling, indexing, and query optimization. Become proficient in ensuring
+                            data
+                            integrity and
+                            security, preparing you for a successful career in database development.</p>
+                    </div>
+                </div>
+                <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                    <div class="custom-img">
+                        <img src="images/database.jpg" alt="Description of the image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--expert training end-->
+
+    <!-- Tabs Section Starts -->
+
+    <section class="learning" id="learning-path">
+        <h6>FROM FUNDAMENTALS TO MASTERY IN SQL DEVELOPMENT</h6>
+        <h3>Innovate SQL: The Complete SQL Development Course Curriculum</h3>
+        <div class="container mt-5">
+            <div class="accordion" id="courseAccordion">
+                <!-- SQL Development Course -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingSQL">
+                        <button class="accordion-button" style="background-color: #101010;" type="button"
+                            data-toggle="collapse" data-target="#collapseSQL" aria-expanded="true"
+                            aria-controls="collapseSQL">
+                            <img src="images/sql-icon.png" alt="course-icon" class="course-icon me-2">
+                            <div>
+                                <h4 class="course-title">SQL Development</h4>
+                            </div>
+                        </button>
+                    </h2>
+                    <div class="accordion-body">
+                        <div class="course-topics mb-3">
+                            <button class="btn btn1" id="btnSQLBasics">SQL Basics</button>
+                            <button class="btn btn1" id="btnAdvancedSQL">Advanced SQL</button>
+                            <button class="btn btn1" id="btnDatabaseDesign">Database Design</button>
+                            <button class="btn btn1" id="btnSQLPerformanceTuning">SQL Performance Tuning</button>
+                            <button class="btn btn1" id="btnDataModeling">Data Modeling</button>
+                        </div>
+                    </div>
+                    <div id="collapseSQL" class="accordion-collapse collapse show" aria-labelledby="headingSQL"
+                        data-parent="#courseAccordion">
+                        <div class="accordion-body">
+                            <div id="contentContainer">
+                                <!-- SQL Basics Content -->
+                                <div id="sqlBasicsContent" class="content-section active">
+                                    <h4 class="htext mb-4">SQL Basics</h4>
+                                    <p class="content-text mb-2">Get started with SQL, understanding its syntax,
+                                        commands, and how to interact with databases. This course covers the fundamental
+                                        concepts required for SQL development.</p>
+                                    <div class="row content-text">
+                                        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                                            <p>✔ Introduction to SQL</p>
+                                            <p>✔ SQL Data Types</p>
+                                            <p>✔ Basic SQL Commands (SELECT, INSERT, UPDATE, DELETE)</p>
+                                            <p>✔ Filtering Data with WHERE</p>
+                                            <p>✔ Sorting Data with ORDER BY</p>
+                                        </div>
+                                        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                                            <p>✔ Using Joins to Combine Tables</p>
+                                            <p>✔ Grouping Data with GROUP BY</p>
+                                            <p>✔ Using Aggregate Functions (SUM, COUNT, AVG)</p>
+                                            <p>✔ Subqueries and Nested Queries</p>
+                                            <p>✔ Managing Database Transactions</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Advanced SQL Content -->
+                                <div id="advancedSQLContent" class="content-section">
+                                    <h4 class="htext mb-4">Advanced SQL</h4>
+                                    <p class="content-text mb-2">Delve into advanced SQL techniques, complex queries,
+                                        and advanced database interactions. This course covers topics for more
+                                        experienced SQL developers.</p>
+                                    <div class="row content-text">
+                                        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                                            <p>✔ Advanced Joins (Self Joins, Cross Joins)</p>
+                                            <p>✔ Window Functions</p>
+                                            <p>✔ CTEs (Common Table Expressions)</p>
+                                            <p>✔ Advanced Subqueries</p>
+                                            <p>✔ Recursive Queries</p>
+                                        </div>
+                                        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                                            <p>✔ Using Indexes for Optimization</p>
+                                            <p>✔ Working with XML and JSON Data</p>
+                                            <p>✔ Dynamic SQL</p>
+                                            <p>✔ Stored Procedures and Functions</p>
+                                            <p>✔ Error Handling and Exception Management</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Database Design Content -->
+                                <div id="databaseDesignContent" class="content-section">
+                                    <h4 class="htext mb-4">Database Design</h4>
+                                    <p class="content-text mb-2">Learn about database design principles, normalization,
+                                        and how to create efficient database schemas. This course covers essential
+                                        concepts for designing robust databases.</p>
+                                    <div class="row content-text">
+                                        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                                            <p>✔ Introduction to Database Design</p>
+                                            <p>✔ Normalization (1NF, 2NF, 3NF)</p>
+                                            <p>✔ Designing Tables and Relationships</p>
+                                            <p>✔ Primary Keys and Foreign Keys</p>
+                                            <p>✔ Indexing Strategies</p>
+                                        </div>
+                                        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                                            <p>✔ Data Modeling Techniques</p>
+                                            <p>✔ ER Diagrams (Entity-Relationship Diagrams)</p>
+                                            <p>✔ Handling Many-to-Many Relationships</p>
+                                            <p>✔ Database Security Best Practices</p>
+                                            <p>✔ Backup and Recovery Planning</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- SQL Performance Tuning Content -->
+                                <div id="sqlPerformanceTuningContent" class="content-section">
+                                    <h4 class="htext mb-4">SQL Performance Tuning</h4>
+                                    <p class="content-text mb-2">Explore techniques and best practices for optimizing
+                                        SQL queries and improving database performance. This course covers performance
+                                        tuning and optimization strategies.</p>
+                                    <div class="row content-text">
+                                        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                                            <p>✔ Introduction to SQL Performance Tuning</p>
+                                            <p>✔ Query Optimization Techniques</p>
+                                            <p>✔ Using Execution Plans</p>
+                                            <p>✔ Indexing for Performance</p>
+                                            <p>✔ Optimizing Joins and Subqueries</p>
+                                        </div>
+                                        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                                            <p>✔ Managing Locking and Blocking</p>
+                                            <p>✔ Analyzing and Resolving Deadlocks</p>
+                                            <p>✔ Partitioning Tables and Indexes</p>
+                                            <p>✔ In-Memory Optimization</p>
+                                            <p>✔ Monitoring and Profiling Tools</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Data Modeling Content -->
+                                <div id="dataModelingContent" class="content-section">
+                                    <h4 class="htext mb-4">Data Modeling</h4>
+                                    <p class="content-text mb-2">Learn about data modeling techniques, ER diagrams, and
+                                        how to create efficient database schemas. This course covers essential concepts
+                                        for designing robust databases.</p>
+                                    <div class="row content-text">
+                                        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                                            <p>✔ Introduction to Data Modeling</p>
+                                            <p>✔ Conceptual, Logical, and Physical Data Models</p>
+                                            <p>✔ Entity-Relationship Diagrams (ERD)</p>
+                                            <p>✔ Data Integrity and Constraints</p>
+                                            <p>✔ Normalization Techniques</p>
+                                        </div>
+                                        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                                            <p>✔ Denormalization Techniques</p>
+                                            <p>✔ Handling Complex Data Structures</p>
+                                            <p>✔ Data Warehousing Concepts</p>
+                                            <p>✔ Dimensional Modeling</p>
+                                            <p>✔ Best Practices in Data Modeling</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> <!-- End of contentContainer -->
+                        </div>
+                    </div>
+                </div> <!-- End of SQL Development Course -->
+            </div>
+        </div>
+    </section>
+    <!-- Tabs Section Ends -->
+    <!-- Counter Section Starts -->
+    <section class="counter-section">
+        <div class="container mt-5">
+            <div class="counter-bar row">
+                <div class="col-lg-3 col-md-6 col-12">
+                    <div class="counter">
+                        <div class="counter-box">
+                            <img src="images/count1.png" alt="" width="40px" />
+                        </div>
+                        <div class="counter-content">
+                            <h3 id="students-trained" data-count="1000">0</h3>
+                            <p>Students Trained</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12">
+                    <div class="counter">
+                        <div class="counter-box">
+                            <img src="images/count2.png" alt="" width="40px" />
+                        </div>
+                        <div class="counter-content">
+                            <h3 id="realtime-experts" data-count="50">0</h3>
+                            <p>Realtime Experts</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12">
+                    <div class="counter">
+                        <div class="counter-box">
+                            <img src="images/count3.png" alt="" width="40px" />
+                        </div>
+                        <div class="counter-content">
+                            <h3 id="students-placed" data-count="1200">0</h3>
+                            <p>Students Placed</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12">
+                    <div class="counter">
+                        <div class="counter-box">
+                            <img src="images/count4.png" alt="" width="40px" />
+                        </div>
+                        <div class="counter-content">
+                            <h3>24/7</h3>
+                            <p>Support Available</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+    <!-- Counter Section Ends -->
+    
+    <!--our expertize start-->
+    <section class="cards-section">
+        <div class="container">
+            <div class="expertize text-center">
+                <h6 class="our-expertize">WHAT WE'RE GREAT AT</h6>
+                <h4 class="expertize-text">Our Expertise</h4>
+            </div>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 ">
+                <div class="col">
+                    <div class="card text-white text-center align-items-center">
+                        <img src="images/card1.png" class="card-img-top" alt="image">
+                        <div class="card-body">
+                            <h5 class="card-title">Job Oriented Intensive Program</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card text-white text-center align-items-center">
+                        <img src="images/card2.png" class="card-img-top" alt="image">
+                        <div class="card-body">
+                            <h5 class="card-title">Structured,industry-vetted curriculum</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card text-white text-center align-items-center">
+                        <img src="images/card3.png" class="card-img-top" alt="image">
+                        <div class="card-body">
+                            <h5 class="card-title">Low Student - Teacher Ratio</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card text-white text-center align-items-center">
+                        <img src="images/card4.png" class="card-img-top" alt="image">
+                        <div class="card-body">
+                            <h5 class="card-title">100% Live,classroom & Online</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card text-white text-center align-items-center">
+                        <img src="images/card5.png" class="card-img-top" alt="image">
+                        <div class="card-body">
+                            <h5 class="card-title">Mock Test Mock Interview</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card text-white text-center align-items-center">
+                        <img src="images/card6.png" class="card-img-top" alt="image">
+                        <div class="card-body">
+                            <h5 class="card-title">Intensive practical experience with projects</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bg-image">
+            <div class="bg-shape1">
+                <img class="shape" src="images/shape-1.svg" alt="shape-1" />
+            </div>
+            <div class="bg-shape2">
+                <img class="shape" src="images/shape-2.svg" alt="shape-2" />
+            </div>
+        </div>
+    </section>
+
+    <!--our expertise end-->
+
+    <!--why we excel start-->
+    <section class="excel" id="why-we-excel">
+        <div class="container">
+            <div class="row d-flex">
+                <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                    <h6 class="heading">WHY WE EXCEL </h6>
+                    <h3 class="excel-texts">Elevate Your Database Skills with DIGIT Institute</h3>
+                    <p class="excel-content">At DIGIT Institute, we are commited to providing top-notch education and
+                        traning in
+                        Database concepts. Here's why our course stands out:</p>
+                    <div class="image">
+                        <img class="images" src="images/excel1.png" alt="logo" />
+                        <div class="image-content">
+                            <h5 class="excel-text">Expert Instructors</h5>
+                            <p class="excel-content">Our faculty comprises industry veterans with extensive experience
+                                in Database training.</p>
+                        </div>
+                    </div>
+                    <div class="image">
+                        <img class="images" src="images/excel2.png" alt="logo" />
+                        <div class="image-content">
+                            <h5 class="excel-text">Comprehensive Curriculum</h5>
+                            <p class="excel-content">We cover everything fron basic principles to advanced techniques,
+                                ensuring you gain a deep and broad understanding of Database development</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                    <img class="database" src="images/6470813.jpg" alt="image" />
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--why we excel end-->
+
+    <!-- Testmonials Section Starts -->
+    <section class="testimonial-hero" id="learner-testimonials">
+        <div class="container-xxl">
+            <div class="container">
+                <div class="row">
+                    <!-- Text Section -->
+                    <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 wow fadeIn justify-content-center"
+                        data-wow-delay="0.1s">
+                        <h5 class="textblue">Learner Testimonials</h5>
+                        <h2 class="testimonial-head">What Students Say About Us.</h2>
+                    </div>
+
+                    <!-- Carousel Section -->
+                    <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 wow fadeIn"
+                        data-wow-delay="0.5s">
+                        <div id="carouselExampleCaptions" class="carousel slide testimonial-carousel"
+                            data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                                    class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                                    aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                                    aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div class="testimonial-item  ">
+                                        <p class=" Content-text carousel-content">Best institute for coaching. Not over
+                                            crowded, one to one interaction in class. Flexible timing, attentive staff
+                                            and Knowledgeable. If you have any problem they'll be there. U can ask
+                                            doubts without hesitation.
+
+                                        </p>
+                                        <div class="d-flex align-items-center">
+                                            <img class="img-fluid flex-shrink-0 rounded-circle" src="images/user1.png" alt="image"
+                                                style="width: 60px; height: 60px;">
+                                            <h6 class="mb-1">Rakesh Chowdary</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="testimonial-item  ">
+                                        <p class="  Content-text carousel-content">
+                                            I took python training from digit institute and the quality of teaching was
+                                            very nice. The sir was very punctual and could clear each every doubt of
+                                            mine. The outcome of the course was satisfactory and met my expectations.
+
+                                        </p>
+                                        <div class="d-flex align-items-center">
+                                            <img class="img-fluid flex-shrink-0 rounded-circle" src="images/user2.jpg" alt="image"
+                                                style="width: 60px; height: 60px;">
+                                            <div class="ps-3">
+                                                <h6 class="mb-1">Vamshi</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="testimonial-item">
+                                        <p class="  Content-text carousel-content">I recently completed java training in
+                                            digit institute. Training was excellent. I trained from well experienced
+                                            real time trainer. Trainer teaches from basics so anyone can learn easily. At last I prepared well and I secured a job. Thank you for
+                                            Everything DIGIT institute.
+
+                                        </p>
+                                        <div class="d-flex align-items-center">
+                                            <img class="img-fluid flex-shrink-0 rounded-circle" src="images/user3.jpg" alt="image"
+                                                style="width: 60px; height: 60px;">
+                                            <div class="ps-3">
+                                                <h6 class="mb-1">Sunitha</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button"
+                                data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button"
+                                data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Testmonials Section Ends -->
+    
+    <!--Footer section starts-->
+    <section class="footer">
+        <div class="custom-shape-divider-top-1718080288">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+                preserveAspectRatio="none">
+                <path
+                    d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+                    class="shape-fill"></path>
+            </svg>
+        </div>
+        <img src="images/digit-logo.png" alt="logo" width="100px" />
+        <div class="social-media">
+
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+            <p>&copy; 2024. All Rights Reserved By DIGIT Institute.</p>
+        </div>
+    </section>
+    <!--Footer section ends-->
+    
+    <!--javascripts-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.min.js"></script>
+
+    <script src="icons/js/all.js"></script>
+    <script src="icons/js/all.min.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+</html>
